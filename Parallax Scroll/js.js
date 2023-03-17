@@ -7,5 +7,8 @@
 
 window.addEventListener('scroll', function(){
     let val = window.scrollY;
-    person.style.top = val * 0.5 + "px";
+    console.log(val)
+    person.style.top = val * 0.2 + "px";
+    ciel.style.left = (-val * 0.2) + "px";
+    montagne.style.left = -val * 0.1 + "px";
 })
