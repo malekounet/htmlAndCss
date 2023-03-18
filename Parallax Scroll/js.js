@@ -4,7 +4,7 @@
     let montagne = document.getElementById('mont');
     let ciel = document.getElementById('ciel');
 
-
+console.log(getComputedStyle(ciel));
 window.addEventListener('scroll', function(){
     let val = window.scrollY;
     console.log(val)
